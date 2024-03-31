@@ -4,7 +4,7 @@
 // const accountSid = process.env.TWILIO_ACCOUNT_SID;
 // const authToken = process.env.TWILIO_AUTH_TOKEN;
 // const client = require('twilio')(accountSid, authToken);
-var client = require('twilio')('AC4e17c64437a07d363b79ae967150848f', 'cf943d7da3523fab096468ce48c34a09');
+var client = require('twilio')('ACxxxxxxxxxxx', 'xxxxxxxxxxxx');
 
 async function deleteAllMessages() {
       const messages = await client.messages.list();
